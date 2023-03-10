@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "html-pdf": "^3.0.1",
+    "jspdf": "^2.5.1",
+    "nodemailer": "^6.9.1",
+    "pdfmake": "^0.2.7",
+    "qrcode": "^1.5.1"
+  },
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devnkheradiya/demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devnkheradiya/demo/issues"
+  },
+  "homepage": "https://github.com/devnkheradiya/demo#readme",
+  "keywords": [],
+  "description": ""
+}

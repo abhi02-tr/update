@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        /* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .invoice-info,
+  .customer-info,
+  .invoice-details {
+    margin-bottom: 20px;
+  }
+  
+  h1,
+  h2 {
+    font-weight: normal;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ddd;
+  }
+  
+  .total {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Premium Invoice</h1>
+      </header>
+      <main>
+        <section class="invoice-info">
+          <h2>Invoice Info</h2>
+          <p>Invoice Number: #123456</p>
+          <p>Date: 01/01/2023</p>
+        </section>
+        <section class="customer-info">
+          <h2>Customer Info</h2>
+          <p>Name: John Doe</p>
+          <p>Address: 123 Main Street</p>
+          <p>City, State ZIP: San Francisco, CA 94102</p>
+        </section>
+        <section class="invoice-details">
+          <h2>Invoice Details</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Description</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Premium Membership</td>
+                <td>$100.00</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="total">Total: $100.00</p>
+        </section>
+      </main>
+      <footer>
+        <p>Thank you for your business!</p>
+      </footer>
+</body>
+</html>
